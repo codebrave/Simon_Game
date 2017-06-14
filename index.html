@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Players play the Simon Game in normal or strict mode (start over if wrong button)."/>
+    <meta name="keywords" content="simon, game, simon game"/>
+    <meta name="robots" content="index/follow"/>
+    <meta name="author" content="Jonalbert Encina"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="simon.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="simon.css"/>
+  </head>
+  <body>
+    <!--Create a Bootstrap container-->
+    <div class="container">
+      <!--The heading of the text.-->
+      <h1 class="text-center" id="h">
+        <b>
+        Simon Game
+        </b>
+      </h1>
+      
+      <!--This is for pressing the interface buttons
+          of the Simon Game on a circle.-->
+      <div id="c">
+        <div id="circle">
+          <div id="green">
+          </div>
+          <div id="red">
+          </div> </br>
+          <div id="yellow">
+          </div> 
+          <div id="blue">
+          </div>
+        </div> <!--end of circle-->
+      </div> <!--end of c-->
+
+      <!--This is for displaying the status of the 
+          game and resetting or starting the game.-->
+      <div class="text-center">
+        <h3 class="dspt">
+          Status: <span id="sts">No win </span>
+        </h3>
+        <h3 class="dspt">
+          Level <span id="lv">1</span>
+        </h3>
+        <a class="btn btn-info text-center bn" id="st">
+          <h2>
+          Start
+          </h2>  
+        </a>
+        <a class="btn btn-info text-center bn" id="rst">
+          <h2>
+          Reset
+          </h2>
+        </a> <br/>
+        
+        <label class="btn btn-info bn"id="str">
+          <span> Strict Mode </span>
+          <input type="checkbox" id="ch">
+        </label>  
+      </div> <!--end of text center-->
+    </div> <!--end of container-->
+  </body>
+</html>

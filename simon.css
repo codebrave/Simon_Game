@@ -1,0 +1,114 @@
+html{
+  font-size: 13px;
+}
+
+body{
+  margin-top: 60px;
+  margin-bottom: 70px;
+  background: rgb(16,21,101);
+  color: white;
+}
+
+/*This is for formatting the size of the circle for
+ the game.*/
+#c{
+  width: 300px;
+  height: auto;
+  background:black;
+  padding-top: 25px;
+  padding-bottom:20px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+/*This formats the magrin bottom size of the 
+  heading.
+*/
+#h{
+ margin-bottom: 30px;
+}
+
+/*This formats the size of the green quarter
+ circle.
+*/
+#green{
+  height: 115px;
+  width: 115px;
+  border-radius: 100% 0 0 0;
+  background: green;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 20px;
+ 
+}
+
+/*This formats the size of the red quarter
+ circle.
+*/
+#red{
+  height: 115px;
+  width: 115px;
+  border-radius: 0 100% 0 0;
+  background: red;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/*This formats the size of the yellow quarter
+ circle.
+*/
+#yellow{
+  height: 115px;
+  width: 115px;
+  border-radius: 0px 0px 0px 100%;
+  background: yellow;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+/*This formats the size of the blue quarter
+ circle.
+*/
+#blue{
+  height: 115px;
+  width: 115px;
+  border-radius: 0 0 100% 0;
+  background: blue;
+  display: inline-block;
+}
+
+/*This is for making the quarter circles 
+ clickable.
+*/
+.pick{
+  cursor: pointer;
+}
+
+/*This formats the size of the buttons below the
+ circle.
+*/
+.bn{
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+}
+
+/*This centers the quarter circles.
+*/
+#circle{
+ text-align: center;
+}
+
+/*This is for adjusting the font size
+  for Strict Mode.
+*/
+#str{
+  font-size: 1.6rem;
+}
+
+/*This is for formatting the margin bottom size
+ for the displaying text.
+*/
+.dspt{
+  margin-bottom: 20px;
+}
